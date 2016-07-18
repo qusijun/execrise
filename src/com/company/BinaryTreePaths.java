@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Created by qusijun on 16/3/25.
@@ -50,5 +51,6 @@ public class BinaryTreePaths {
         String s = "woshi";
         String t = s.substring(0,2);
         System.out.println(t);
+
     }
 }

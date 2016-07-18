@@ -46,6 +46,7 @@ public class BullsAndCows {
         map.put(1,3);
         int val = (int)map.get(1);
         map.remove(1,3);
+
         System.out.println(map.getOrDefault(2,1));
     }
 }
